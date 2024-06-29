@@ -11,14 +11,10 @@ const ProductPage = ({
   productPrice,
   productRating,
 }) => {
-  //   const location = useLocation()
-  // const currentUrl = location.pathname;
-  // console.log("currentUrl=>",currentUrl)
 
   return (
     <div>
       <div className="bg-white p-4 shadow-xl h-auto w-[240px] ">
-        {/* <Link to={`/product/${productId}`}> */}
 
         <ul className=" flex flex-col justify-center items-center text-left gap-4  flex-wrap ">
           <div className="w-auto h-[170px]">
@@ -37,7 +33,6 @@ const ProductPage = ({
             </div>
           </div>
         </ul>
-        {/* </Link> */}
       </div>
     </div>
   );
